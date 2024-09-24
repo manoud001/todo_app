@@ -1,0 +1,29 @@
+html,body{
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer{
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 1rem;
+}
+
+.show_tasks, .statistics, .edit_task{
+    background-image : url('./assets/img/background.png');
+}
+
+.cover-photo {
+    background-image: url('./assets/img/accueil.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
